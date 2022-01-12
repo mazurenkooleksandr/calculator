@@ -44,8 +44,6 @@ function checkButtons(event) {
     outScreen.textContent = sign;
   }
 
-  console.log("x: " + x, "y: " + y, "s: " + sign, "finish:" + finish);
-
   if (key === "=") {
     if (y === "") y = x;
     switch (sign) {
